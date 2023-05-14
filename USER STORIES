@@ -1,0 +1,44 @@
+**Valet Parking:**
+
+- As a user, I want to be able to select the valet parking option from the drop-down menu.
+- As a user, I want to be I want to be able to select Valet Parking as my parking option and be charged $12 when I park for five hours or less.
+- As a user, I want to be able to select Valet Parking as my parking option and be charged $18 when I park between 5 and 24 hours.
+- As a user, I want to be able to select Valet Parking as my parking option and be charged $18 for every 24 hours I leave my car parked here.
+
+**Short-Term Hourly Parking:**
+
+- As a user, I want to be able to select the short-term parking and be charged $2 for the first hour of parking.
+- As a user, I want to be able to select the short-term parking and be charged $1 for each additional half hour of parking.
+- As a user, I want to be able to select the short-term parking and be charged a maximum of $24 for parking for 24 hours.
+- As a user, I want to be able to use the short-term hourly parking option without any issues.
+- As a user, I want to be able to exit the parking lot without any issues after paying the hourly parking fee.
+
+**Long-Term Garage Parking:**
+
+- As a user, I want to be able to use the long-term garage parking option without any issues.
+- As a user, I want to be able to select the long-term garage parking and be charged $2 per hour for parking.
+- As a user, I want to be able to select the long-term garage parking and be charged a maximum of $12 per day for parking.
+- As a user, I want to be able to select the long-term garage parking and be charged $72 per week for parking, with the seventh day being free.
+- As a user, I want to be able to exit the parking lot without any issues after paying the long-term garage parking fee.
+
+**Long-Term Surface Parking (North Lot):**
+
+- As a user, I want to be able to use the long-term surface parking option without any issues.
+- As a user, I want to be able to select the long-term surface parking and be charged $2 per hour for parking.
+- As a user, I want to be able to select the long-term garage parking and be charged a maximum of $10 per day for parking.
+- As a user, I want to be able to select the long-term garage parking and be charged $60 per week for parking, with the seventh day being free.
+- As a user, I want to be able to exit the parking lot without any issues after paying the long-term surface parking fee.
+
+**Economy Lot Parking:**
+
+- As a user, I want to be able to use the economy lot parking option without any issues.
+- As a user, I want to be able to use the economy lot parking option and be charged $2 per hour for parking.
+- As a user, I want to be charged a maximum of $9 per day for parking in the economy lot parking.
+- As a user, I want to be charged $54 per week for parking in the economy lot parking, with the seventh day being free.
+- As a user, I want to be able to exit the parking lot without any issues after paying the economy lot parking fee.
+
+**Invalid Options:**
+
+- As a user, I want to be informed when I select an invalid date, such as February 30th, 2023.
+- As a user, I want to be informed when I select a departure time that is earlier than the arrival time.
+- As a user, I want to be informed when I stay for 0 minutes, and the parking lot should not charge me anything.
