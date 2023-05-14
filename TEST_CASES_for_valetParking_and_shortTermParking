@@ -1,0 +1,111 @@
+TEST CASES FOR VALET PARKING:
+
+1. Test Case 01: Calculate cost for less than or equal to 5 hours of Valet Parking.
+- User story: As a customer who parks my car using Valet Parking, I want to know the cost of parking for 4 hours.
+- Input:
+  - Parking Lot: Valet Parking
+  - Entry Date and Time: 04/01/2023 09:00 AM
+  - Leaving Date and Time: 04/01/2023 01:00 PM
+- Expected Output:
+  - Total Cost: $12.00
+
+2. Test Case 02: Calculate cost for more than 5 hours of Valet Parking in the same day.
+- User story: As a customer who parks my car using Valet Parking, I want to know the cost of parking for 8 hours.
+- Input:
+  - Parking Lot: Valet Parking
+  - Entry Date and Time: 04/01/2023 09:00 AM
+  - Leaving Date and Time: 04/01/2023 05:00 PM
+- Expected Output:
+  - Total Cost: $18.00
+
+3. Test Case 03: Calculate cost for more than a day of Valet Parking.
+- User story: As a customer who parks my car using Valet Parking, I want to know the cost of parking for 2 days and 6 hours.
+- Input:
+  - Parking Lot: Valet Parking
+  - Entry Date and Time: 04/01/2023 09:00 AM
+  - Leaving Date and Time: 04/03/2023 03:00 PM
+- Expected Output:
+  - Total Cost: $54.00
+
+4. Test Case 04: Calculate cost for an invalid input where leaving date is before entry date.
+- User story: As a customer who parks my car using Valet Parking, I want to see an error message when I enter an invalid leaving date before the entry date.
+- Input:
+  - Parking Lot: Valet Parking
+  - Entry Date and Time: 04/01/2023 09:00 AM
+  - Leaving Date and Time: 03/31/2023 03:00 PM
+- Expected Output:
+  - ERROR MESSAGE: "Invalid Date: Leaving date cannot be before entry date."
+
+  TEST CASES FOR SHORT TERM (HOURLY) PARKING
+
+1. Test case 05: Calculate cost for one hour of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for the first hour.
+  - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/01/2023 11:00 AM
+   - Expected output:
+     - Total Cost: $2.00
+
+2. Test case 06: Calculate cost for one hour and a half of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for the first hour and a half.
+  - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/01/2023 11:30 AM
+   - Expected output:
+     - Total Cost: $3.00
+
+3. Test case 07: Calculate cost for 2 hours of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for two hours.
+  - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/01/2023 12:00 PM
+   - Expected output:
+     - Total Cost: $4.00
+
+4. Test case 08: Calculate cost for three hours and a half of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for three hours and a half.
+  - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/01/2023 01:30 PM
+   - Expected output:
+     - Total Cost: $6.00
+
+5. Test case 09: Calculate cost for 5 hours of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for five hours or less.
+  - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/01/2023 03:00 PM
+   - Expected output:
+     - Total Cost: $12.00
+
+6. Test case 10: Calculate cost for 15 hours of Short-Term Parking.
+  - User story: As a customer, I want to know the cost of parking for 15 hours.
+  - Input:
+   - Parking Lot: Short-Term (hourly) Parking
+   - Entry Date and Time: 04/01/2023 10:00 AM
+   - Leaving Date and Time: 04/02/2023 01:00 AM
+ - Expected output:
+   - Total Cost: $24.00
+
+  7. Test case 11: Calculate cost for 23 hours of Short-Term Parking.
+    - User story: As a customer, I want to know the cost of parking for 23 hours.
+    - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/02/2023 09:00 AM
+   - Expected output:
+     - Total Cost: $24.00
+
+  8. Test case 12: Calculate cost for 25 hours of Short-Term Parking.
+    - User story: As a customer, I want to know the cost of parking for more than 24 hours.
+    - Input:
+     - Parking Lot: Short-Term (hourly) Parking
+     - Entry Date and Time: 04/01/2023 10:00 AM
+     - Leaving Date and Time: 04/02/2023 11:00 AM
+   - Expected output:
+     - Total Cost: $26.00

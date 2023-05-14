@@ -1,0 +1,43 @@
+
+Test Case: Long-Term Garage Parking - Max time with 7th day free
+    Parking lot: Long-Term Garage Parking
+    Entry date and time: 04/01/2023 00:00
+    Leaving date and time: 04/08/2023 23:59
+    Expected cost: $72.00
+
+Test Case: Long-Term Surface Parking - Max time with 7th day free
+    Parking lot: Long-Term Surface Parking (North Lot)
+    Entry date and time: 04/01/2023 00:00
+    Leaving date and time: 04/08/2023 23:59
+    Expected cost: $60.00
+
+Test Case: Economy Lot Parking - Max time with 7th day free
+    Parking lot: Economy Lot Parking
+    Entry date and time: 04/01/2023 00:00
+    Leaving date and time: 04/08/2023 23:59
+    Expected cost: $54.00
+
+Test Case: Lost Ticket Fee
+    Parking lot: Short-Term (hourly) Parking
+    Entry date and time: 04/01/2023 12:00
+    Leaving date and time: 04/01/2023 18:00
+    Lost ticket: Yes
+    Expected cost: $24.00 + $10.00 (lost ticket fee) = $34.00
+
+Test Case: Departure time before arrival time
+    Parking lot: Valet Parking
+    Entry date and time: 04/01/2023 12:00
+    Leaving date and time: 04/01/2023 10:00
+    Expected result: Error message "ERROR! YOUR LEAVING DATE OR TIME IS BEFORE YOUR ENTRY DATE OR TIME"
+
+Test Case: Staying for 0 minutes
+    Parking lot: Short-Term (hourly) Parking
+    Entry date and time: 04/01/2023 12:00
+    Leaving date and time: 04/01/2023 12:00
+    Expected result: Error message "ERROR! YOUR STAY MUST BE AT LEAST 30 MINUTES"
+
+Test Case: Invalid Entry Date
+    Parking lot: Valet Parking
+    Entry date and time: 02/30/2023 12:00
+    Leaving date and time: 02/30/2023 15:00
+    Expected result: Error message "ERROR! INVALID ENTRY DATE OR TIME"
