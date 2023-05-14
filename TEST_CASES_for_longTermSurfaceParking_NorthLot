@@ -1,0 +1,53 @@
+Test case 21: Calculate cost for 3 hours of Long-Term Surface Parking (North Lot).
+  - User story: As a customer, I want to know the cost of parking for 3 hours in the Long-Term Surface Parking (North Lot).
+  - Input:
+        Parking Lot: Long-Term Surface Parking (North Lot)
+        Entry Date and Time: 04/01/2023 2:00 PM
+        Leaving Date and Time: 04/01/2023 5:00 PM
+    Expected output:
+        Total Cost: $6.00
+
+Test case 22: Calculate cost for 10 hours of Long-Term Surface Parking (North Lot).
+  - User story: As a customer, I want to know the cost of parking for 10 hours in the Long-Term Surface Parking (North Lot).
+  - Input:
+        Parking Lot: Long-Term Surface Parking (North Lot)
+        Entry Date and Time: 04/01/2023 6:00 PM
+        Leaving Date and Time: 04/02/2023 4:00 AM
+    Expected output:
+        Total Cost: $10.00
+
+Test case 23: Calculate cost for 24 hours of Long-Term Surface Parking (North Lot).
+  - User story: As a customer, I want to know the cost of parking for 24 hours in the Long-Term Surface Parking (North Lot).
+  - Input:
+        Parking Lot: Long-Term Surface Parking (North Lot)
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/02/2023 10:00 AM
+    Expected output:
+        Total Cost: $10.00
+
+Test case 24: Calculate cost for 48 hours of Long-Term Surface Parking (North Lot).
+  - User story: As a customer, I want to know the cost of parking for 48 hours in the Long-Term Surface Parking (North Lot).
+  - Input:
+        Parking Lot: Long-Term Surface Parking (North Lot)
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/03/2023 10:00 AM
+    Expected output:
+        Total Cost: $20.00
+
+Test case 25: Calculate cost for 7 days (168 hours) of Long-Term Surface Parking (North Lot).
+  - User story: As a customer, I want to know the cost of parking for 7 days in the Long-Term Surface Parking (North Lot).
+  - Input:
+        Parking Lot: Long-Term Surface Parking (North Lot)
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/08/2023 10:00 AM
+    Expected output:
+        Total Cost: $60.00
+
+Test case 26: Calculate cost for 8 days (192 hours) of Long-Term Surface Parking (North Lot)
+  - User story: As a customer, I want to know the cost of parking for 8 days in the Long-Term Surface Parking (North Lot).
+  - Input:
+    Parking Lot: Long-Term Surface Parking (North Lot)
+    Entry Date and Time: 04/01/2023 10:00 AM
+    Leaving Date and Time: 04/09/2023 10:00 AM
+  Expected output:
+    Total Cost: $64.00
