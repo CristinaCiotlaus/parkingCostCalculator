@@ -1,0 +1,73 @@
+TEST CASES FOR LONG-TERM GARAGE PARKING
+
+1. Test case 13: Calculate cost for one hour of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for the first hour.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/01/2023 11:00 AM
+    Expected output:
+        Total Cost: $2.00
+
+2. Test case 14: Calculate cost for 23 hours of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for a full day.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/02/2023 09:00 AM
+    Expected output:
+        Total Cost: $12.00
+
+3. Test case 15: Calculate cost for 24 hours of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for a full day.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/02/2023 10:00 AM
+    Expected output:
+        Total Cost: $12.00
+
+4. Test case 16: Calculate cost for 5 days of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for a full week.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/06/2023 10:00 AM
+    Expected output:
+        Total Cost: $60.00
+
+5. Test case 17: Calculate cost for 6 days of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for a full week.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/07/2023 10:00 AM
+    Expected output:
+        Total Cost: $72.00
+
+ 6. Test case 18: Calculate cost for 7 days of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for a full week.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/08/2023 10:00 AM
+    Expected output:
+        Total Cost: $72.00
+
+7. Test case 19: Calculate cost for 8 days of Long-Term garage Parking.
+  - User story: As a customer, I want to know the cost of parking for more than a week.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/01/2023 10:00 AM
+        Leaving Date and Time: 04/09/2023 10:00 AM
+    Expected output:
+        Total Cost: $84.00
+
+8. Test case 20: Calculate cost for invalid entry and leaving date and time for Long-Term garage Parking.
+  - User story: As a customer, I want to know the system handles an invalid entry and leaving date and time.
+  - Input:
+        Parking Lot: Long-Term garage Parking
+        Entry Date and Time: 04/02/2023 12:00 PM
+        Leaving Date and Time: 04/01/2023 10:00 AM
+    Expected output:
+        Error message: "ERROR! YOUR LEAVING DATE OR TIME IS BEFORE YOUR ENTRY DATE OR TIME. PLEASE ENTER VALID DATES AND TIMES."
