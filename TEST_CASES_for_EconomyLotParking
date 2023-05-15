@@ -1,0 +1,71 @@
+Test case 27: Calculate cost for one hour of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for the first hour.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/01/2023 11:00 AM
+ Expected output:
+   Total Cost: $2.00
+
+Test case 28: Calculate cost for 4 hours and 30 minutes of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for 4 hours and 30 minutes.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/01/2023 2:30 PM
+ Expected output:
+   Total Cost: $9.00
+
+Test case 29: Calculate cost for 24 hours of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for 24 hours.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/02/2023 10:00 AM
+ Expected output:
+   Total Cost: $9.00
+
+Test case 30: Calculate cost for 3 days of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for 3 days.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/04/2023 10:00 AM
+ Expected output:
+   Total Cost: $27.00
+
+Test case 31: Calculate cost for 6 days of Economy Lot Parking.
+   - User story: As a customer, I want to know the cost of parking for a full week.
+   - Input:
+      Parking Lot: Economy Lot Parking
+      Entry Date and Time: 04/01/2023 10:00 AM
+      Leaving Date and Time: 04/07/2023 10:00 AM
+    Expected output:
+      Total Cost: $54.00
+
+Test case 32: Calculate cost for 7 days of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for a full week.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/08/2023 10:00 AM
+ Expected output:
+   Total Cost: $54.00
+
+Test case 33: Calculate cost for 8 days of Economy Lot Parking.
+- User story: As a customer, I want to know the cost of parking for more than a week.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 04/01/2023 10:00 AM
+   Leaving Date and Time: 04/09/2023 10:00 AM
+ Expected output:
+   Total Cost: $63.00
+
+Test case 34: Calculate cost for invalid date of Economy Lot Parking.
+- User story: As a customer, I want to see an error message when entering an invalid date.
+- Input:
+   Parking Lot: Economy Lot Parking
+   Entry Date and Time: 02/31/2023 10:00 AM
+   Leaving Date and Time: 02/31/2023 11:00 AM
+ Expected output:
+   Error message: ERROR! INVALID ENTRY DATE OR TIME""
